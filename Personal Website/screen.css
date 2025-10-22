@@ -1,0 +1,180 @@
+ body{
+        background-color: #F4F6FA;
+    }
+    html, body{
+        margin: 0;
+        padding: 0;
+    }
+    h1, h2, h3, p{
+        margin: 0;
+        padding: 0; 
+        font-family: "Times New Roman", Times, serif;
+        line-height: 1.5;
+        color: #2d3748;
+    }
+    h1{
+        font-size: 2.5rem;
+    }
+    h2{
+        font-size: 1.75rem;
+    }
+    h3{
+        font-size: 1.00rem;
+    }
+    p{
+        font-size: 1.25rem;
+    }
+    #header,#footer {
+        width: 100%;
+        text-align: center;
+        border-radius: 0px;
+    }
+    #header {
+        background: #003153;
+        color: #F7FAFC; 
+        padding: 60px 0;
+    }
+    #footer {
+        clear:left;
+        background: #003153;
+        color: #F7FAFC;
+        padding: 10px 0;
+    }
+    #header h1, #header h2, #header h3, #footer h1, #footer h2, #footer h3{
+        color: inherit
+    }
+    #leftnav, #centerbody {
+        float: left;
+        margin: 10px;
+    }
+    #leftnav {
+        background-color: #D8CBB2;
+        border: 2px solid black;
+        width: 20%;
+        height: 220px;
+        padding: 10px;
+    } 
+    #leftnav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0px;
+    }
+    #leftnav li {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #leftnav a {
+        display: block;
+        color: #003153;
+        text-decoration: none;
+        font-size: 1.25rem;
+        font-weight: 600;
+    }
+    #leftnav a:hover {
+        color: #F7FAFC;
+    }
+    #centerbody {
+        background-color: whitesmoke;
+        border: 2px solid #85120F;
+        text-align: left;
+        width: 65%;
+        height: auto;
+        padding: 10px;
+    }
+    .section-title {
+        margin-top: 22px;
+        text-align: left;
+        color: #2d3748;
+    }
+    .currently-list {
+        font-family: "Times New Roman", Times, serif;
+        color: #2d3748;
+        margin-top: 10px;
+        padding-left: 20px;
+        font-size: 1.25rem;
+    }
+    .currently-list li {
+        margin-bottom: 5px;
+    }
+    .resume-table {
+        display: table;
+        margin: 0 auto;
+        background-color: #F4F6FA;
+        border: 2px solid #003153;
+        border-collapse: collapse;
+        width: 85%;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.00rem;
+    }
+    .table-row {
+        display: table-row;
+    }
+    .table-cell {
+        display: table-cell;
+        border: 1px solid #003153;
+        padding: 8px 12px;
+        vertical-align: top;
+    }
+    .header .table-cell {
+        font-weight: bold;
+        text-align: center;
+        background-color: #003153;
+        color: #F7FAFC;
+    }
+    .resume-title {
+        margin-bottom: 22px;
+        text-align: left;
+        color: #2d3748;
+    }
+    .coursework-list {
+        list-style-type: disc;
+        padding-left: 20px;
+        margin-top: 10px;
+        color: #2d3748;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.25rem;
+    }
+    .coursework-list ul {
+        list-style-type: circle;
+        margin-left: 25px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .coursework-list li {
+        margin-bottom: 5px;
+    }
+    .contact-list {
+        list-style-type: none;
+        padding-left: 0;
+        font-family: "Times New Roman", Times, serif;
+        color: #2d3748;
+        margin-top: 10px;
+        font-size: 1.25rem;
+    }
+    .contact-list li {
+        margin-bottom: 5px;
+    }
+    .contact-list a {
+        color: #85120F;
+        text-decoration: none;
+    }
+    .contact-list a:hover {
+        color: #003153;
+    }
+    .img {
+        margin-top: 20px;
+        margin-bottom: 50px;
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+    .img-v2, .responsive-img {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+    .responsive-img:hover {
+        transform: scale(1.01);
+    }
