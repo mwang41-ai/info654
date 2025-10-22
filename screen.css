@@ -47,6 +47,13 @@
         float: left;
         margin: 10px;
     }
+    @media screen and (max-width: 600px) {
+    #leftnav, #centerbody {
+    float: none;
+    width: 100%;
+    margin: 0;
+    }
+    }
     #leftnav {
         background-color: #D8CBB2;
         border: 2px solid black;
