@@ -51,7 +51,7 @@
         background-color: #D8CBB2;
         border: 2px solid black;
         width: 20%;
-        height: 220px;
+        height: auto;
         padding: 10px;
     } 
     #leftnav ul {
